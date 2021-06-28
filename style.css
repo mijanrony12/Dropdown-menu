@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background-color: black;
+    text-align: center;
+    padding: 1% 7%;
+    
+}
+.menu-bar  ul li i{
+    margin-right: 10px;
+}
+.menu-bar ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    
+}
+.menu-bar ul li a:hover{
+    color: teal;
+    
+   
+}
+
+
+.drop-menu{
+    display: inline;
+    position: relative;
+}
+.drop-menu li i{
+    margin-left: 10px;
+}
+.drop-content{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    text-align: left;
+    background-color: black;
+    display: none;
+    padding: 10px 5px;
+    min-width: 150px;
+    line-height: 30px;
+
+}
+.drop-content ul li a i{
+    margin-left: 10px;
+}
+.drop-menu:hover .drop-content{
+    display: block;
+}
+.drop-content ul li a{
+   text-decoration: underline;
+    padding: 15px 5px 15px 0px;
+}
+/* tutorial menu starts */
+.tutorial-menu{
+    display: inline;
+    position: relative;
+}
+.tutorial-menu li a i{
+    margin-left: 10px;
+}
+.tutorial-content{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    line-height: 30px;
+    background-color: black;
+    display: none;
+    color: white;
+    min-width: 150px;
+    height: auto;
+    text-align: left;
+}
+.tutorial-menu:hover .tutorial-content{
+    display: block;
+}
+
+/* tutorial menu starts */
+.subdrop{
+    display: inline;
+    position: relative;
+}
+.submenu-content{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    min-width: 150px;
+    background-color: black;
+    display: none;
+}
+.subdrop:hover .submenu-content{
+    display: block;
+}
+.submenu-content ul li a{
+    text-decoration: none;
+}
